@@ -166,7 +166,7 @@ int main() {
                 int categoriaValor;
                 std::cout << "Ingrese el nombre del producto: ";
                 std::cin >> nombre;
-                std::cout << "Ingrese la categoría (1-ORDENADOR, 2-ROUTER, 3-SWITCH, 4-MATERIALFUNGIBLE, 5-OTROS): ";
+                std::cout << "Ingrese la categoria (1-ORDENADOR, 2-ROUTER, 3-SWITCH, 4-MATERIALFUNGIBLE, 5-OTROS): ";
                 std::cin >> categoriaValor;
 
                 Categoria categoria;
@@ -220,7 +220,7 @@ int main() {
                 std::cout << "Saliendo del programa...\n";
                 return 0;
             default:
-                std::cout << "Opción no válida. Intente de nuevo.\n";
+                std::cout << "Opcion no valida. Intente de nuevo.\n";
                 break;
         }
     }
